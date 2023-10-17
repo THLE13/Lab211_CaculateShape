@@ -24,8 +24,9 @@ public class ShapeManagement extends Menu<String> {
         switch (n) {
             case 1:
                 algorithm.display(algorithm.inputRectangle(), algorithm.inputCircle(), algorithm.inputTriangle());
-                System.exit(0);
                 break;
+            case 2:
+                System.exit(0);
             default:
                 System.out.println("Your choice invalid! Pls input another choice");
         }
